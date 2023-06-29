@@ -144,5 +144,6 @@ function getBook(id) {
 }
 
 // Destructuring
-const books = getBooks();
-books;
+const book = getBooks(2);
+const title = book.title;
+title;
